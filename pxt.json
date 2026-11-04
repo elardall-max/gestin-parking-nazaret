@@ -1,0 +1,35 @@
+{
+    "name": "Gestión parking nazaret",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.18",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable9.0",
+        "tag": "v9.0.12",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/49d8b2a09658f4c68bdde0d80757f02138c5d913",
+        "target": "9.0.12",
+        "pxt": "13.0.9",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
